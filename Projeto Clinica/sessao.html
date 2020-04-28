@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<!-- Meta tags Obrigatórias -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<title>Sessão</title>
+</head>
+
+<body>
+	<div class="container shadow bg-light "> <!--Container do Body-->
+		
+		<div class="container-fluid bg-light"> <!--Container das Infos-->
+			<div class="row">
+				<div class="col justify-content-bg-start">
+					<center><p></p><h5 class="disable"><p> Av. Visconde do Rio Branco,</p><p> 123 - Centro, Niterói - RJ</p></h5></center>
+				</div>
+				<div class="col">
+					<center>	<img src="img/logo.png" width="100 px"></center>
+				</div>
+				<div class="col justify-content-bg-end">
+					<center><p></p><h5 class="disable"><p>(00)0000-0000</p><p>(00)1111-1111</p></h5></center>
+				</div>
+			</div>
+		</div><!--Fim container das infos-->
+
+		<hr class="my-1">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Inicio NavBar-->
+			<div class="collapse navbar-collapse justify-content-md-center">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Paciente</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Trabalhe conosco</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Sair</a>
+					</li>
+				</ul>
+			</div>
+		</nav><!--Fim navbar-->
+		<hr class="my-1">
+
+
+		<h1>Sessão</h1>
+		<form>
+			<div class="form-row">
+				<div class="form-group col-md-4">
+					<label for="Id">Id da Sessão</label>
+					<input class="form-control" type="text" placeholder="000000001" readonly>
+				</div>
+				<div class="form-group col-md-4">
+					<label for="Id">Id da Anamnese</label>
+					<select class="form-control">
+						<option selected>Escolher...</option>
+						<option>351312351</option>
+						<option>112412415</option>
+						<option>123532615</option>
+						<option>613235135</option>
+						<option>732513566</option>
+					</select>
+				</div>
+				<div class="form-group col-md-2">
+					<label>Data</label>
+					<input type="date" class="form-control">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="Dados do Paciente">Queixas</label>
+				<textarea class="form-control" rows="2" placeholder="Queixas do Paciente"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="Dados do Paciente">Planos de Tratamento</label>
+				<textarea class="form-control" rows="2" placeholder="Planos de Tratamento"></textarea>
+			</div>
+
+			<div class="form-row">	
+				<div class="form-group col-md-6">
+					<label for="Dados do Paciente">Diagnostico</label>
+					<textarea class="form-control" rows="1" placeholder="Diagnostico Final"></textarea>
+				</div>	
+				<div class="form-group col-md-6">
+					<label for="Dados do Paciente">Resumo</label>
+					<textarea class="form-control" rows="1" placeholder="Resumo da Sessão"></textarea>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="Dados do Paciente">Evolução</label>
+					<textarea class="form-control" rows="1" placeholder="Evolução"></textarea>
+				</div>
+				<div class="form-group col-md-2">
+					<label for="Id">Pago</label>
+					<select class="form-control">
+						<option selected>Escolher...</option>
+						<option>Sim</option>
+						<option>Não</option>
+					</select>
+				</div>
+			</div>
+
+			
+			<center><button type="submit" class="btn btn-primary">Enviar</button>
+				<a href="restrito.html" class="btn btn-primary">Voltar</a><center>
+					<hr>
+				</form>
+			</div>
+
+
+			<!-- JavaScript-->
+			<script src="js/jquery-3.js"></script>
+			<script src="js/popper.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+		</body>
+		</html>

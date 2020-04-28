@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- Meta tags Obrigatórias -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/form.css">
+
+	<title>Home - Clinica</title>
+</head>
+
+<body>
+	<div class="container shadow bg-light "> <!--Container do Body-->
+		
+		<div class="container-fluid bg-light"> <!--Container das Infos-->
+			<div class="row">
+				<div class="col justify-content-bg-start">
+					<center><p></p><h5 class="disable"><p> Av. Visconde do Rio Branco,</p><p> 123 - Centro, Niterói - RJ</p></h5></center>
+				</div>
+				<div class="col">
+					<center>	<img src="img/logo.png" width="100 px"></center>
+				</div>
+				<div class="col justify-content-bg-end">
+					<center><p></p><h5 class="disable"><p>(00)0000-0000</p><p>(00)1111-1111</p></h5></center>
+				</div>
+			</div>
+		</div><!--Fim container das infos-->
+
+		<hr class="my-1">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Inicio NavBar-->
+			<div class="collapse navbar-collapse justify-content-md-center">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Paciente</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Trabalhe conosco</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Sair</a>
+					</li>
+				</ul>
+			</div>
+		</nav><!--Fim navbar-->
+		<hr class="my-1">
+
+		<div class="carousel slide" data-ride="carousel"> <!-- Inicio Carousel-->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="img/header2.jpg" alt="Primeiro Slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/header3.jpg" alt="Segundo Slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/header4.jpg" alt="Segundo Slide">
+				</div>
+			</div>
+		</div> <!--fim carousel-->
+					
+		<form> 
+			<fieldset id="paciente"><legend><h2>ID do psicólogo</h2></legend>
+				<p><label for="cnome">Nome:</label> <input type="text" name="tnome" id="cnome" size="26" maxlength="35" placeholder="nome completo"> </p>
+				<p><label for="ce-mail">e-mail:</label> <input type="e-mail" name="te-mail" id="ce-mail" size="26" maxlength="50" placeholder="e-mail de usuário"><p>
+					<p><label for="csenha">Senha:</label> <input type="password" name="nsenha" id="csenha" size="26" maxlength="10" placeholder="digite sua senha"></p>
+					<p><label for="ccpf">CPF:</label> <input type="text" name="tcpf" id="ccpf" class="cpf-mask" size="28" maxlength="11" placeholder=" 000.000.000-00"></p>
+					<p><label for="ccrp">CRP:</label> <input type="text" name="tcrp" id="ccrp" size="28"></p>
+					<p><label for="ctel">telefone:</label> <input type="text" name="ttel" id="ctel" class="cel-sp-mask" placeholder="(00) 00000-0000" size="24" maxlength="11"></p>
+					<a href="restrito.html"> ENVIAR </a>
+
+				</fieldset>
+
+			</form>
+			
+			<footer id="rodape">
+				<center>
+       <p>Copyright 2020 - Clínica de Psicologia Fictícia<br/>
+        <a href="http://facebook.com.br" target="_blank">Facebook</a> | <a href="http://twitter.com.br" target="_blank">Twitter</p>
+        	</center>
+        </footer>
+	
+
+
+	<script src="js/jquery-3.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
